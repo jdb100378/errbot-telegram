@@ -13,7 +13,16 @@ team = os.getenv('team')
 server = os.getenv('server')
 
 BOT_IDENTITY = {
-    'token': bot_token
+        # Required
+        'login': login,
+        'password': password,
+        'team': team,
+        'server': server,
+        # Optional
+        'insecure': False, # Default = False. Set to true for self signed certificates
+        'scheme': 'https', # Default = https
+        'port': 8065, # Default = 8065
+        'timeout': 30 # Default = 30. If the webserver disconnects idle connections later/earlier change this value
 }
 
 CHATROOM_PRESENCE = ()
