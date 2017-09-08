@@ -4,3 +4,4 @@
 .idea/modules.xml
 .idea/workspace.xml
 .idea/errbot-mattermost.iml
+__pycache__/config.cpython-36.pyc
