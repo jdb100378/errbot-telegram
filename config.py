@@ -2,10 +2,11 @@ import logging
 import os
 
 BOT_LOG_LEVEL = logging.DEBUG
-BASE_DIR = '/app'
+BASE_DIR = "/app"
 
 BACKEND = 'Mattermost'
-BOT_EXTRA_BACKEND_DIR = '/app/backend'
+BOT_EXTRA_BACKEND_DIR = "/app/backend"
+print(BOT_EXTRA_BACKEND_DIR)
 
 login = os.getenv('login')
 password = os.getenv('password')
@@ -31,7 +32,7 @@ CHATROOM_PRESENCE = ()
 
 # The location where all of Err's data should be stored. Make sure to set
 # this to a directory that is writable by the user running the bot.
-BOT_DATA_DIR = '/tmp'
+BOT_DATA_DIR = "/tmp"
 
 ### Repos and plugins config.
 
