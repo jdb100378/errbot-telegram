@@ -4,6 +4,7 @@ import os
 BASE_DIR = '/app'
 
 BACKEND = 'Mattermost'
+BOT_EXTRA_BACKEND_DIR = '/app/plugins'
 
 login = os.getenv('login')
 password = os.getenv('password')
@@ -64,5 +65,4 @@ BOT_LOG_LEVEL = logging.INFO
 #
 # Unix-style glob patterns are supported, so 'gbin@localhost'
 # would be considered an admin if setting '*@localhost'.
-BOT_ADMINS = ('@btotharye',)
-BOT_ALT_PREFIXES = ('@geekbot',)
+BOT_ADMINS = ('@btotharye')
