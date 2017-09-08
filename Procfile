@@ -1,1 +1,1 @@
-bot: errbot -l
+bot: errbot
