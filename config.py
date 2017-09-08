@@ -4,7 +4,7 @@ import os
 BOT_LOG_LEVEL = logging.DEBUG
 BASE_DIR = "/app"
 
-BACKEND = 'Hipchat'
+BACKEND = 'Mattermost'
 BOT_EXTRA_BACKEND_DIR = "/app/backend"
 print(BOT_EXTRA_BACKEND_DIR)
 
