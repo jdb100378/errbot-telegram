@@ -12,6 +12,8 @@ password = os.getenv('password')
 team = os.getenv('team')
 server = os.getenv('server')
 
+BOT_ADMINS = ('@btotharye')
+
 BOT_IDENTITY = {
         # Required
         'login': login,
@@ -65,4 +67,4 @@ BOT_LOG_FILE = None
 #
 # Unix-style glob patterns are supported, so 'gbin@localhost'
 # would be considered an admin if setting '*@localhost'.
-BOT_ADMINS = ('@btotharye')
+

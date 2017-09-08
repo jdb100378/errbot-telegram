@@ -1,1 +1,2 @@
 mattermostdriver
+-e git@github.com:Vaelor/errbot-mattermost-backend.git
