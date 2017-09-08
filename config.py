@@ -5,7 +5,7 @@ BOT_LOG_LEVEL = logging.DEBUG
 BASE_DIR = '/app'
 
 BACKEND = 'Mattermost'
-BOT_EXTRA_BACKEND_DIR = '/app/backends'
+BOT_EXTRA_BACKEND_DIR = '/app/errbot-mattermost/backends'
 
 login = os.getenv('login')
 password = os.getenv('password')
