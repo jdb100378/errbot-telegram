@@ -1,0 +1,2 @@
+errbot
+-r ./plugins/requirements.txt
