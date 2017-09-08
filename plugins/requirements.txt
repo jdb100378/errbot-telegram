@@ -1,1 +1,1 @@
--r /errbot-mattermost-backend/requirements.txt
+-r errbot-mattermost-backend/requirements.txt
