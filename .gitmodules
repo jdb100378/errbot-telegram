@@ -1,0 +1,4 @@
+[submodule "plugins/errbot-mattermost-backend"]
+	path = plugins/errbot-mattermost-backend
+	url = https://github.com/Vaelor/errbot-mattermost-backend.git
+	branch = master
