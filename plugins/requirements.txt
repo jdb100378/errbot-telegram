@@ -1,1 +1,2 @@
 mattermostdriver
+-r ./errbot-mattermost-backend/requirements.txt
