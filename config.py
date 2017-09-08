@@ -5,7 +5,7 @@ BOT_LOG_LEVEL = logging.DEBUG
 BASE_DIR = '/app'
 
 BACKEND = 'Mattermost'
-BOT_EXTRA_BACKEND_DIR = '/app/plugins'
+BOT_EXTRA_BACKEND_DIR = '/app/backend'
 
 login = os.getenv('login')
 password = os.getenv('password')
