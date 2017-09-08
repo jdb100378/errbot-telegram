@@ -2,10 +2,10 @@ import logging
 import os
 
 BOT_LOG_LEVEL = logging.DEBUG
-BASE_DIR = '/app'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 BACKEND = 'Mattermost'
-BOT_EXTRA_BACKEND_DIR = '/app/errbot-mattermost/backends'
+BOT_EXTRA_BACKEND_DIR = os.path.join(BASE_DIR, 'backends')
 
 login = os.getenv('login')
 password = os.getenv('password')
@@ -48,7 +48,7 @@ BOT_DATA_DIR = '/tmp'
 # locally before publishing it. Note that you can specify only a single
 # directory, however you are free to create subdirectories with multiple
 # plugins inside this directory.
-BOT_EXTRA_PLUGIN_DIR = "/app/plugins"
+BOT_EXTRA_PLUGIN_DIR = os.path.join(BASE_DIR, 'plugins')
 print(BOT_EXTRA_PLUGIN_DIR)
 
 # The location of the log file. If you set this to None, then logging will
