@@ -1,1 +1,1 @@
-bot: errbot
+bot: errbot -c /app/config.py
