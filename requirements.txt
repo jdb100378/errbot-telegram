@@ -1,2 +1,6 @@
 errbot
+sleekxmpp
+pyasn1
+pyasn1-modules
+hypchat
 -r ./plugins/requirements.txt
