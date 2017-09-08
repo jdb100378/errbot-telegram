@@ -2,7 +2,7 @@ import logging
 import os
 
 BOT_LOG_LEVEL = logging.DEBUG
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = '/app'
 
 BACKEND = 'Mattermost'
 BOT_EXTRA_BACKEND_DIR = '/app/plugins'
@@ -48,22 +48,12 @@ BOT_DATA_DIR = '/tmp'
 # locally before publishing it. Note that you can specify only a single
 # directory, however you are free to create subdirectories with multiple
 # plugins inside this directory.
-BOT_EXTRA_PLUGIN_DIR = '/app/plugins'
+BOT_EXTRA_PLUGIN_DIR = "/app/plugins"
 print(BOT_EXTRA_PLUGIN_DIR)
 
 # The location of the log file. If you set this to None, then logging will
 # happen to console only.
 BOT_LOG_FILE = None
-
-# The verbosity level of logging that is done to the above logfile, and to
-# the console. This takes the standard Python logging levels, DEBUG, INFO,
-# WARN, ERROR. For more info, see http://docs.python.org/library/logging.html
-#
-# If you encounter any issues with Err, please set your log level to
-# logging.DEBUG and attach a log with your bug report to aid the developers
-# in debugging the issue.
-BOT_LOG_LEVEL = logging.INFO
-
 
 ##########################################################################
 # Account and chatroom (MUC) configuration                               #
