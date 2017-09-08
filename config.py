@@ -1,6 +1,7 @@
 import logging
 import os
 
+BOT_LOG_LEVEL = logging.DEBUG
 BASE_DIR = '/app'
 
 BACKEND = 'Mattermost'
