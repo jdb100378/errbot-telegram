@@ -9,6 +9,7 @@ BOT_EXTRA_BACKEND_DIR = "/app/backend"
 print(BOT_EXTRA_BACKEND_DIR)
 
 bot_token = os.getenv('bot_token')
+BOT_ADMINS = ''
 
 BOT_IDENTITY = {
         # Required
