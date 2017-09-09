@@ -4,31 +4,19 @@ import os
 BOT_LOG_LEVEL = logging.DEBUG
 BASE_DIR = "/app"
 
-BACKEND = 'Mattermost'
+BACKEND = 'Telgram'
 BOT_EXTRA_BACKEND_DIR = "/app/backend"
 print(BOT_EXTRA_BACKEND_DIR)
 
-login = os.getenv('login')
-password = os.getenv('password')
-team = os.getenv('team')
-server = os.getenv('server')
-
-BOT_ADMINS = ('@btotharye')
+bot_token = os.getenv('bot_token')
 
 BOT_IDENTITY = {
         # Required
-        'login': login,
-        'password': password,
-        'team': team,
-        'server': server,
-        # Optional
-        'insecure': False, # Default = False. Set to true for self signed certificates
-        'scheme': 'https', # Default = https
-        'port': 8065, # Default = 8065
-        'timeout': 30 # Default = 30. If the webserver disconnects idle connections later/earlier change this value
+        'token': bot_token,
 }
 
 CHATROOM_PRESENCE = ()
+BOT_PREFIX = '/'
 
 # The location where all of Err's data should be stored. Make sure to set
 # this to a directory that is writable by the user running the bot.
