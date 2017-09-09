@@ -10,20 +10,8 @@
     }
   ],
   "env": {
-    "login": {
-      "description": "The mattermost login",
-      "required": "true"
-    },
-    "password": {
-      "description": "The mattermost pw",
-      "required": "true"
-    },
-    "team": {
-      "description": "The mattermost team name",
-      "required": "true"
-    },
-    "server": {
-      "description": "The mattermost server",
+    "bot_token": {
+      "description": "The telegram bot token",
       "required": "true"
     }
   }
