@@ -1,7 +1,7 @@
 {
   "name": "Errbot",
   "description": "An instance of Errbot",
-  "repository": "https://github.com/errbotio/errbot",
+  "repository": "https://github.com/jdb100378/errbot-telegram",
   "logo": "https://errbot.readthedocs.org/en/latest/_static/errbot.png",
   "keywords": ["python", "errbot"],
   "buildpacks": [
