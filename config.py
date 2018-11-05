@@ -13,7 +13,7 @@ BOT_ADMINS = ('355573615')
 
 BOT_IDENTITY = {
         # Required
-        'token': bot_token,
+        'token': '723258047:AAGwvn_B6BU3CsO8T5Nghbus4xp9SVEIkaA',
 }
 
 CHATROOM_PRESENCE = ()
